@@ -5,11 +5,10 @@ let htmlResult = document.querySelector(".htmlResult");
 
 let videoContainer = document.createElement("div");
 videoContainer.classList.add("video");
-videoContainer.style.display = "none"; // Esconde o vídeo inicialmente
+videoContainer.style.display = "none";
 videoContainer.innerHTML = `
   <video autoplay loop muted>
     <source src="seu-video.mp4" type="video/mp4">
-    Seu navegador não suporta o elemento de vídeo.
   </video>
 `;
 document.body.appendChild(videoContainer);
