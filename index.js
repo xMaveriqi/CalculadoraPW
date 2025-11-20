@@ -21,7 +21,7 @@ form.addEventListener("submit", (event) => { // submit do formulario
             setTimeout(() => { // depois do tempo
                 overlay.style.display = "none"; // esconde o video secreto
                 videofundo.style.display = "block"; // volta o fundo
-            }, 11000); // duração do vídeo secreto
+            }, 10000); // duração do vídeo secreto
         }
 
         let result = eval(calc); // calcula resultado
