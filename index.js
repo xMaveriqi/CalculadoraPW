@@ -14,10 +14,6 @@ form.addEventListener("submit", (event) => {
         calc = "";
         htmlResult.innerHTML = `0`
     }
-
-
-
-
     else {
         calc = calc + submitter;
         htmlResult.innerHTML = `${calc}`
